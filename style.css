@@ -82,6 +82,8 @@ body{
     padding: 5px;
     box-shadow: 2px 3px black;
     border-radius: 6px;
+    
+    transition: 2s;
 }
 .btn-menu .info a:hover{
     box-shadow: 2px 5px 3px black;
@@ -96,6 +98,10 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
+}
+.btn-menu:hover  .info a:hover{
+    display: block;
     
 }
 .icon{
