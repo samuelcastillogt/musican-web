@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="style.css">
     <title>Mariachis Guatemala</title>
 </head>
@@ -29,12 +30,17 @@
         <img src="/src/img_344675.png" alt="" class="icon">
         <div class="info">
             <!-- <p>Nuestros numeros de telefono</p> -->
-            <a href="tel:38586355">3858-6355</a>
+            <span id="numero" class="a">3858-6355</span> 
         </div>
     </div>
     <div class="btn-menu">
         <img src="/src/b05d54dcb0459172f686172178986019.png" alt="" class="icon">
     </div>
 </div>
+<script>
+    document.getElementById("numero").addEventListener("click", ()=>{
+        window.location.href ="tel:3858-6355"
+    })
+</script>
 </body>
 </html>

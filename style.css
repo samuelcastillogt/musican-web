@@ -64,8 +64,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
-    
+    height: 100%; 
     z-index: 9999999999999999999999;
     transition: 2s;
 
@@ -74,18 +73,17 @@ body{
     display: none;
     font-size: 1.4em;
 }
-.btn-menu .info a{
+.btn-menu .info .a{
     margin: 5px;
     text-decoration: none;
     color: #fdfcff;
     border: 1px solid #fdfcff;
     padding: 5px;
     box-shadow: 2px 3px black;
-    border-radius: 6px;
-    
+    border-radius: 6px;   
     transition: 2s;
 }
-.btn-menu .info a:hover{
+.btn-menu .info .a:hover{
     box-shadow: 2px 5px 3px black;
 }
 .btn-menu:hover{
