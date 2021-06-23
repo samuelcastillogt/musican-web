@@ -56,8 +56,9 @@ body{
     height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .btn-menu{
     width: 50%;
@@ -136,5 +137,19 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
+}
+iframe{
+    width: 100vw;
+    height: 300px;
+}
+.galeria{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+    grid-gap: 5px;
+}
+.galeria img{
+    border-radius: 5px;
+    width: 100%;
 }
